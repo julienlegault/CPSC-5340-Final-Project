@@ -45,7 +45,7 @@ class LoginViewModel: ObservableObject {
         do {
             try Auth.auth().signOut()
             self.signInState = false
-        } catch let signOutError as NSError {
+        } catch {
             self.hasError.toggle()
             self.error = LoginModelError.signOutError
         }

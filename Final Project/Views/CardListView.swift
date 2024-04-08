@@ -26,7 +26,7 @@ struct CardListView: View {
                 await cardsvm.fetchData()
             }
             .listStyle(.grouped)
-            .navigationTitle("Magic the Gathering Cards")
+            .navigationTitle("Magic Cards")
             .toolbar {
                 Button {
                     loginView.signOut()
