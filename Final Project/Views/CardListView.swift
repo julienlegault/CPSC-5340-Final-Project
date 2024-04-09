@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardListView: View {
-    @StateObject var loginView = LoginViewModel()
+    @EnvironmentObject var loginView : LoginViewModel
     @ObservedObject var cardsvm = CardsViewModel()
     
     var body: some View {

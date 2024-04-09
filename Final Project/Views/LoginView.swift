@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @State var user = UserModel(email: "", password: "")
-    @StateObject var loginViewModel = LoginViewModel()
+    @EnvironmentObject var loginViewModel : LoginViewModel
     
     var body: some View {
         if loginViewModel.signInState {

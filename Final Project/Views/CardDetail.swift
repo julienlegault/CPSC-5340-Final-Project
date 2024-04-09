@@ -12,6 +12,17 @@ struct CardDetail: View {
     let card : CardModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            VStack {
+                CardView(card: card)
+                if card.rulings != nil {
+                    Text("Rulings")
+                        .padding(.top)
+                        .font(.system(size: 20))
+                    CardRulingsView(rulings: card.rulings!)
+                }
+            }
+        }
+        .padding()
     }
 }

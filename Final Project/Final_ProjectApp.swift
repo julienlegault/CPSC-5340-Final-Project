@@ -23,10 +23,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct Final_ProjectApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var loginViewModel = LoginViewModel()
     
     var body: some Scene {
         WindowGroup {
             LoginView()
+                .environmentObject(loginViewModel)
         }
     }
 }

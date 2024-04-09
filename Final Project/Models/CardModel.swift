@@ -14,8 +14,10 @@ struct CardResults : Codable {
 struct CardModel : Codable, Identifiable {
     let id : String
     let name : String
+    let type : String
     let manaCost : String
     let text : String
-    let imageUrl : String
-    let rulings : [RulingsModel]
+    let rulings : [RulingsModel]?
+    let power : String?
+    let toughness : String?
 }

@@ -36,6 +36,10 @@
 		F9FD8E252BC4B7BE00CE2EB1 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E242BC4B7BE00CE2EB1 /* CardModel.swift */; };
 		F9FD8E272BC4B88B00CE2EB1 /* RulingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E262BC4B88B00CE2EB1 /* RulingsModel.swift */; };
 		F9FD8E292BC4B92700CE2EB1 /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E282BC4B92700CE2EB1 /* CardDetail.swift */; };
+		F9FD8E2D2BC4DBB700CE2EB1 /* CardRulingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E2C2BC4DBB700CE2EB1 /* CardRulingsView.swift */; };
+		F9FD8E2F2BC5B87500CE2EB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E2E2BC5B87500CE2EB1 /* CardView.swift */; };
+		F9FD8E312BC5BA5200CE2EB1 /* NameBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E302BC5BA5200CE2EB1 /* NameBoxView.swift */; };
+		F9FD8E332BC5BE4E00CE2EB1 /* CreaturePTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FD8E322BC5BE4E00CE2EB1 /* CreaturePTView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		F9FD8E242BC4B7BE00CE2EB1 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F9FD8E262BC4B88B00CE2EB1 /* RulingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulingsModel.swift; sourceTree = "<group>"; };
 		F9FD8E282BC4B92700CE2EB1 /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		F9FD8E2C2BC4DBB700CE2EB1 /* CardRulingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRulingsView.swift; sourceTree = "<group>"; };
+		F9FD8E2E2BC5B87500CE2EB1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F9FD8E302BC5BA5200CE2EB1 /* NameBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameBoxView.swift; sourceTree = "<group>"; };
+		F9FD8E322BC5BE4E00CE2EB1 /* CreaturePTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturePTView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +132,12 @@
 			isa = PBXGroup;
 			children = (
 				F9FD8DE82BC4AA6600CE2EB1 /* LoginView.swift */,
+				F9FD8E2C2BC4DBB700CE2EB1 /* CardRulingsView.swift */,
 				F9FD8E1A2BC4B0C900CE2EB1 /* CardListView.swift */,
 				F9FD8E282BC4B92700CE2EB1 /* CardDetail.swift */,
+				F9FD8E2E2BC5B87500CE2EB1 /* CardView.swift */,
+				F9FD8E302BC5BA5200CE2EB1 /* NameBoxView.swift */,
+				F9FD8E322BC5BE4E00CE2EB1 /* CreaturePTView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FD8DE92BC4AA6600CE2EB1 /* LoginView.swift in Sources */,
+				F9FD8E332BC5BE4E00CE2EB1 /* CreaturePTView.swift in Sources */,
+				F9FD8E312BC5BA5200CE2EB1 /* NameBoxView.swift in Sources */,
 				F9FD8E1B2BC4B0C900CE2EB1 /* CardListView.swift in Sources */,
 				F9FD8E272BC4B88B00CE2EB1 /* RulingsModel.swift in Sources */,
 				F9FD8E232BC4B6D500CE2EB1 /* CardsViewModel.swift in Sources */,
@@ -250,6 +264,8 @@
 				F9FD8E1D2BC4B12500CE2EB1 /* UserModel.swift in Sources */,
 				F9FD8E202BC4B16600CE2EB1 /* LoginViewModel.swift in Sources */,
 				F9FD8DE72BC4AA6600CE2EB1 /* Final_ProjectApp.swift in Sources */,
+				F9FD8E2D2BC4DBB700CE2EB1 /* CardRulingsView.swift in Sources */,
+				F9FD8E2F2BC5B87500CE2EB1 /* CardView.swift in Sources */,
 				F9FD8E292BC4B92700CE2EB1 /* CardDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
